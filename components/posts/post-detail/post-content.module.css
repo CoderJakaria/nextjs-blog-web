@@ -1,0 +1,32 @@
+.content {
+  width: 95%;
+  max-width: 60rem;
+  margin: 2rem auto;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  background-color: hsl(265, 55%, 96%);
+  border-radius: 6px;
+  padding: 1rem;
+}
+
+.content p {
+  color: hsl(276, 5%, 20%);
+}
+
+.content .image {
+  margin: 1rem auto;
+  width: 100%;
+  max-width: 600px;
+}
+
+.content img {
+  width: 600px;
+  height: 300px;
+  object-fit: contain;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: 2rem;
+  }
+}

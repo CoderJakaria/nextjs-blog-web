@@ -1,0 +1,16 @@
+.latest {
+  width: 90%;
+  max-width: 80rem;
+  margin: 2rem auto;
+}
+
+.latest h2 {
+  font-size: 2rem;
+  color: hsl(276, 5%, 20%);
+  text-align: center;
+}
+@media (min-width: 768px) {
+  .latest h2 {
+    font-size: 4rem;
+  }
+}
